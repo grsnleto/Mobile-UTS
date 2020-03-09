@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/utamaFragment">
+
+    <fragment
+        android:id="@+id/utamaFragment"
+        android:name="com.example.comletogerson.UtamaFragment"
+        android:label="fragment_utama"
+        tools:layout="@layout/fragment_utama" >
+        <action
+            android:id="@+id/action_utamaFragment_to_ipuntFragment"
+            app:destination="@id/ipuntFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ipuntFragment"
+        android:name="com.example.comletogerson.IpuntFragment"
+        android:label="fragment_ipunt"
+        tools:layout="@layout/fragment_ipunt" >
+        <action
+            android:id="@+id/action_ipuntFragment_to_hasilFragment"
+            app:destination="@id/hasilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/hasilFragment"
+        android:name="com.example.comletogerson.HasilFragment"
+        android:label="fragment_hasil"
+        tools:layout="@layout/fragment_hasil" />
+</navigation>
