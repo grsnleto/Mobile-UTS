@@ -13,6 +13,12 @@
         <action
             android:id="@+id/action_utamaFragment_to_ipuntFragment"
             app:destination="@id/ipuntFragment" />
+        <action
+            android:id="@+id/action_utamaFragment_to_layoutFragment"
+            app:destination="@id/layoutFragment" />
+        <action
+            android:id="@+id/action_utamaFragment_to_consFragment"
+            app:destination="@id/consFragment" />
     </fragment>
     <fragment
         android:id="@+id/ipuntFragment"
@@ -22,10 +28,35 @@
         <action
             android:id="@+id/action_ipuntFragment_to_hasilFragment"
             app:destination="@id/hasilFragment" />
+        <action
+            android:id="@+id/action_ipuntFragment_to_utamaFragment"
+            app:destination="@id/utamaFragment" />
     </fragment>
     <fragment
         android:id="@+id/hasilFragment"
         android:name="com.example.comletogerson.HasilFragment"
         android:label="fragment_hasil"
-        tools:layout="@layout/fragment_hasil" />
+        tools:layout="@layout/fragment_hasil" >
+        <action
+            android:id="@+id/action_hasilFragment_to_ipuntFragment"
+            app:destination="@id/ipuntFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/layoutFragment"
+        android:name="com.example.comletogerson.LayoutFragment"
+        android:label="fragment_layout"
+        tools:layout="@layout/fragment_layout" >
+        <action
+            android:id="@+id/action_layoutFragment_to_utamaFragment"
+            app:destination="@id/utamaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/consFragment"
+        android:name="com.example.comletogerson.ConsFragment"
+        android:label="fragment_cons"
+        tools:layout="@layout/fragment_cons">
+        <action
+            android:id="@+id/action_consFragment_to_utamaFragment"
+            app:destination="@id/utamaFragment" />
+    </fragment>
 </navigation>

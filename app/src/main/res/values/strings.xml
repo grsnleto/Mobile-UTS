@@ -1,6 +1,12 @@
 <resources>
-    <string name="app_name">My Navigation</string>
-
+    <string name="app_name">MobileLCN</string>
+    <string name="nama">Gersonius Yoseph Realino Leto</string>
+    <string name="bio"> Saya adalah mahasiswa STMIK AKAKOM angkatan 2017. Saya mengambil Jurusan Sistem Informasi.\nSTMIK Akakom adalah kampus IT Jogja yang terletak di Bantul, Yogyakarta, Indonesia.\n\n\nDikenal oleh masyarakat sebagai kampus dengan fokus mencetak programmer bersertifikasi.\nSaat ini STMIK AKAKOM telah berkolaborasi dengan NIIT, Asosiasi Cloud Computing Indonesia (ACCI), SEAMOLEC, National Taipei University of Technology (Taipei Tech), PT. Asuransi Sinarmas, PT. Gamatechno, Refractory, PT. Sebangsa Bersama, Dilo, PT. CBN, PT. Indonesia Indicator, Software Seni, dan berbagai perusahaan IT. \nSelain itu juga bekerjasama dengan lembaga sertifikasi seperti Cisco Networking Academy, Oracle academy, MyOB dan cloud academy.
+    </string>
+    <string name="waduk_sermo">
+        Waduk Sermo Kulon Progo berada di Dusun Sermo Lor, Kokap, Hargowilis, Kabupaten Kulonprogo, Yogyakarta.\nLokasi Waduk Sermo cenderung untuk mudah ditemukan karena berada di sekitar jalan utama yaitu Jalan Jogja-Wates.\nDari Kota Jogja, perjalanan akan ditempuh selama kurang lebih 90 menit dengan jarak kurang lebih 40 Km.\nRute yang dilewati adalah Jalan Wates, kemudian selang beberapa waktu yang cukup lama akan menemukan patung kuda di sekitaran alun-alun.\nKemudian langsung mengambil arah menuju ke Waduk Sermo seusai petunjuk yang ada.
+    </string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="utama">MOBILE LCN\n175610055</string>>
 </resources>

@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import kotlinx.android.synthetic.main.fragment_ipunt.*
+import kotlinx.android.synthetic.main.fragment_utama.*
 
 /**
  * A simple [Fragment] subclass.
@@ -35,6 +36,9 @@ class IpuntFragment : Fragment() {
 
                 nav.navigate(R.id.action_ipuntFragment_to_hasilFragment, bundle)
             }
+        }
+        buttonBackInput.setOnClickListener{
+            nav.navigate(R.id.action_ipuntFragment_to_utamaFragment)
         }
     }
 }
